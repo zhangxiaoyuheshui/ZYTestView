@@ -10,4 +10,11 @@
 
 @interface ZYTestView : UIView
 
+/**
+ 创建一个view
+
+ @return 返回创建的view
+ */
+- (UIView *)createView;
+
 @end
